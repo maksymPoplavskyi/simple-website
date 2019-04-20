@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'aleo-bold';
+  src: url("../../fonts/aleo-bold-webfont.eot");
+  src: url("../../fonts/aleo-bold-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-bold-webfont.woff") format("woff"), url("../../fonts/aleo-bold-webfont.ttf") format("truetype"), url("../../fonts/aleo-bold-webfont.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'aleo-italic';
+  src: url("../../fonts/aleo-italic-webfont.eot");
+  src: url("../../fonts/aleo-italic-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-italic-webfont.woff") format("woff"), url("../../fonts/aleo-italic-webfont.ttf") format("truetype"), url("../../fonts/aleo-italic-webfont.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'aleo-light';
+  src: url("../../fonts/aleo-light-webfont.eot");
+  src: url("../../fonts/aleo-light-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-light-webfont.woff") format("woff"), url("../../fonts/aleo-light-webfont.ttf") format("truetype"), url("../../fonts/aleo-light-webfont.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'aleo-lightitalic';
+  src: url("../../fonts/aleo-lightitalic-webfont.eot");
+  src: url("../../fonts/aleo-lightitalic-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-lightitalic-webfont.woff") format("woff"), url("../../fonts/aleo-lightitalic-webfont.ttf") format("truetype"), url("../../fonts/aleo-lightitalic-webfont.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'aleo-regular';
+  src: url("../../fonts/aleo-regular-webfont.eot");
+  src: url("../../fonts/aleo-regular-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-regular-webfont.woff") format("woff"), url("../../fonts/aleo-regular-webfont.ttf") format("truetype"), url("../../fonts/aleo-regular-webfont.svg#webfont") format("svg"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+body {
+  font-family: "Aleo-regular", sans-serif;
+  font-size: 16px;
+  min-width: 1024px;
+  max-width: 1200px;
+  color: #e8e8e8; }
+
+img {
+  max-width: 100%; }
+
+.grid {
+  width: 1140px;
+  margin: 0 auto; }
