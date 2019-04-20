@@ -23,6 +23,40 @@
   src: url("../../fonts/aleo-regular-webfont.eot");
   src: url("../../fonts/aleo-regular-webfont.eot?iefix") format("eot"), url("../../fonts/aleo-regular-webfont.woff") format("woff"), url("../../fonts/aleo-regular-webfont.ttf") format("truetype"), url("../../fonts/aleo-regular-webfont.svg#webfont") format("svg"); }
 
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 550;
+  letter-spacing: 4.8px; }
+
+::-webkit-input-placeholder {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999; }
+
+::-moz-placeholder {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999; }
+
+:-moz-placeholder {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999; }
+
+:-ms-input-placeholder {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999; }
+
 * {
   margin: 0;
   padding: 0;
@@ -33,15 +67,91 @@
     box-sizing: border-box; }
 
 body {
-  font-family: "Aleo-regular", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   min-width: 1024px;
-  max-width: 1200px;
   color: #e8e8e8; }
 
 img {
   max-width: 100%; }
 
+.content {
+  padding: 15px; }
+
 .grid {
-  width: 1140px;
+  width: 1110px;
+  padding: 0 15px;
   margin: 0 auto; }
+
+.hero {
+  height: 100vh;
+  text-align: center;
+  background-image: url(../../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .hero__title {
+    padding-top: 265px;
+    color: #fff;
+    margin-bottom: 16px; }
+  .hero__description {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 6.82px;
+    color: #fff; }
+  .hero .hero-section {
+    font-size: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 120px; }
+    .hero .hero-section .form-place__destination {
+      min-width: 500px;
+      padding: 22px 0 24px 0;
+      border: 0;
+      outline: none;
+      text-align: center;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      letter-spacing: 2.8px;
+      color: #999; }
+    .hero .hero-section .form-place__btn {
+      min-width: 150px;
+      padding: 12px 0 22.5px 0;
+      border: 2px solid #fff;
+      background-color: #5474fd;
+      cursor: pointer; }
+      .hero .hero-section .form-place__btn--search {
+        padding-left: 20px;
+        font-family: "Aleo-regular", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #fff; }
+      .hero .hero-section .form-place__btn--logo {
+        position: relative;
+        top: 6px;
+        left: 6px; }
+  .hero .scroll-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #fff;
+    cursor: pointer; }
+    .hero .scroll-down__name {
+      margin-bottom: 15px; }

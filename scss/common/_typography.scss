@@ -42,3 +42,39 @@
     url('../../fonts/aleo-regular-webfont.ttf') format('truetype'),
     url('../../fonts/aleo-regular-webfont.svg#webfont') format('svg');
     }
+
+    h1 {
+        font-family: $font-josefin;
+        font-size: 48px;
+        font-weight: 550;
+        letter-spacing: 4.8px;
+    }
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: $font-josefin;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #999;
+}
+::-moz-placeholder          {
+    text-align: center;
+    font-family: $font-josefin;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #999;
+}
+:-moz-placeholder           {
+    text-align: center;
+    font-family: $font-josefin;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #999;
+}
+:-ms-input-placeholder      {
+    text-align: center;
+    font-family: $font-josefin;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #999;
+}

@@ -10,10 +10,9 @@
 }
 
 body {
-    font-family: $font-aleo-regular;
+    font-family: $font-josefin;
     font-size: 16px;
     min-width: 1024px;
-    max-width: 1200px;
     color: $color-base;
 }
 
@@ -21,7 +20,12 @@ img {
     max-width: 100%;
 }
 
+.content {
+    padding: 15px;
+}
+
 .grid {
-    width: 1140px;
+    width: 1110px;
+    padding: 0 15px;
     margin: 0 auto;
 }
