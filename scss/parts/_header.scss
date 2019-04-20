@@ -1,0 +1,40 @@
+.header {
+    background-color: #5474fd;
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 0;
+    }
+
+    &__logo {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 2.4px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-white;
+    }
+
+    .nav {
+
+        &__list {
+            display: inline-block;
+            margin-right: 60px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__link {
+            font-family: $font-aleo-regular;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-white;
+        }
+    }
+}

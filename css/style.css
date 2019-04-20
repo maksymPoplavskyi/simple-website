@@ -83,6 +83,39 @@ img {
   padding: 0 15px;
   margin: 0 auto; }
 
+.header {
+  background-color: #5474fd; }
+  .header .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 28px 0; }
+  .header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
+  .header .nav__list {
+    display: inline-block;
+    margin-right: 60px; }
+    .header .nav__list:last-child {
+      margin-right: 0; }
+  .header .nav__link {
+    font-family: "Aleo-regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
+
 .hero {
   height: 100vh;
   text-align: center;
