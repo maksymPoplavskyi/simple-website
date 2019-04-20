@@ -43,12 +43,18 @@
     url('../../fonts/aleo-regular-webfont.svg#webfont') format('svg');
     }
 
-    h1 {
-        font-family: $font-josefin;
-        font-size: 48px;
-        font-weight: 550;
-        letter-spacing: 4.8px;
-    }
+h1 {
+    font-family: $font-josefin;
+    font-size: 48px;
+    font-weight: 550;
+    letter-spacing: 4.8px;
+}
+
+h2 {
+    font-family: $font-aleo-regular;
+    font-size: 36px;
+    font-weight: 400;
+}
 
 ::-webkit-input-placeholder {
     text-align: center;

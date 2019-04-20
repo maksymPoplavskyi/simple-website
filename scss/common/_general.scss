@@ -29,3 +29,20 @@ img {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+
+.col-md-1 {
+    width: 50%;
+}
+
+.col-md-1 + .col-md-1 {
+    margin-left: 30px;
+}
