@@ -1,0 +1,51 @@
+.chain-content {
+    background-color: #333;
+
+    .chain {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+        text-align: center;
+ 
+        &__item {
+            color: $color-white;
+        }
+
+        &__logo {
+            margin-bottom: 32px;
+        }
+
+        &__title {
+            margin-bottom: 120px;
+        }
+    }
+
+    .chain-box {
+        position: relative;
+        display: inline-block;
+        min-width: 300px;
+        max-width: 300px;
+        height: 60px;
+        overflow: hidden;
+
+        &--left {
+            top: 114px;
+            left: 322px;
+        }
+
+        &--right {
+            top: 114px;
+            left: 386px;
+        }
+
+        &__dotted {
+            position: relative;
+            right: 90px;
+            width: 480px;
+            height: 480px;
+            border: 1px dotted #6d6d6d;
+            border-radius: 50%;
+        }
+    }
+}

@@ -96,11 +96,17 @@ img {
 .row:after {
   clear: both; }
 
-.col-md-1 {
+.col-md-2 {
   width: 50%; }
 
-.col-md-1 + .col-md-1 {
+.col-md-2 + .col-md-2 {
   margin-left: 30px; }
+
+.col-md-3 {
+  width: 25%; }
+
+.col-md-3 + .col-md-3 {
+  margin-left: 70px; }
 
 .header {
   background-color: #5474fd; }
@@ -241,3 +247,43 @@ img {
     margin: 0 0 5px 65px; }
   .why__picture-2 {
     float: right; }
+
+.chain-content {
+  background-color: #333; }
+  .chain-content .chain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center; }
+    .chain-content .chain__item {
+      color: #fff; }
+    .chain-content .chain__logo {
+      margin-bottom: 32px; }
+    .chain-content .chain__title {
+      margin-bottom: 120px; }
+  .chain-content .chain-box {
+    position: relative;
+    display: inline-block;
+    min-width: 300px;
+    max-width: 300px;
+    height: 60px;
+    overflow: hidden; }
+    .chain-content .chain-box--left {
+      top: 114px;
+      left: 322px; }
+    .chain-content .chain-box--right {
+      top: 114px;
+      left: 386px; }
+    .chain-content .chain-box__dotted {
+      position: relative;
+      right: 90px;
+      width: 480px;
+      height: 480px;
+      border: 1px dotted #6d6d6d;
+      border-radius: 50%; }
