@@ -13,21 +13,18 @@
             margin-bottom: 48px;
             letter-spacing: 1.6px;
             line-height: 26px;
+            color: $color-base;
         }
     
         &__link {
             display: block;
-            max-width: 225px;
-            text-align: center;
-            font-family: $font-aleo-regular;
-            font-size: 16px;
-            padding: 22px 37px;
+            float:left;
+            text-align: center;       
             margin-bottom: 132px;
-            letter-spacing: 1.2px;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $color-white;
-            background-image: url(../../img/button-bg.png);
+        }
+
+        &__btn {
+            padding: 20px 37px;
         }
 
         .why-right {

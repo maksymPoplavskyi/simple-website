@@ -1,0 +1,21 @@
+.place-boxes {
+
+    .place-block-1 {
+        background: url(../../img/Spain-section-01-bg.jpg) center no-repeat / cover;
+
+        @include place-box
+    }
+
+    .place-block-2 {
+        background: url(../../img/Spain-section-02-bg.jpg) center no-repeat / cover;
+
+        .place {
+
+            &--spain {
+                float: right;
+                }
+            }
+            
+        @include place-box
+        }
+    }
