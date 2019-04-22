@@ -9,12 +9,9 @@
     }
 
     &__logo {
-        font-size: 24px;
-        font-weight: bold;
-        letter-spacing: 2.4px;
-        text-decoration: none;
-        text-transform: uppercase;
         color: $color-white;
+        
+        @include logo
     }
 
     .nav {

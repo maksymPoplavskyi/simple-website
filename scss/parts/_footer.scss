@@ -1,0 +1,47 @@
+.footer {
+    background-color: #232323;
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        &__logo {
+            margin-bottom: 15px;
+            color: $color-white;
+            
+            @include logo
+        }
+
+        &__recomendation {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .footer-links {
+            margin-bottom: 50px;
+
+            &__list {
+                display: inline-block;
+                margin-right: 20px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            &__link {
+                color: $color-white;
+
+                &--active {
+                    color: #5474fd;
+                }
+            }
+        }
+    }
+}

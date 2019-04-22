@@ -121,6 +121,9 @@ img {
 .col-md-3 + .col-md-3 {
   margin-left: 70px; }
 
+.col-md-6 {
+  width: 16.6%; }
+
 .btn {
   max-width: 225px;
   background-image: url(../../img/button-bg.png);
@@ -147,12 +150,12 @@ img {
     justify-content: space-between;
     padding: 28px 0; }
   .header__logo {
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 2.4px;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #fff; }
+    text-transform: uppercase; }
   .header .nav__list {
     display: inline-block;
     margin-right: 60px; }
@@ -295,7 +298,7 @@ img {
     overflow: hidden; }
     .chain-content .chain-box--left {
       top: 114px;
-      left: 430px; }
+      left: 442px; }
     .chain-content .chain-box--right {
       top: 114px;
       left: 506px; }
@@ -392,3 +395,45 @@ img {
       line-height: 26px;
       text-align: left;
       color: #e8e8e8; }
+
+.footer {
+  background-color: #232323; }
+  .footer .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 120px; }
+  .footer .footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+    .footer .footer-box__logo {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2.4px;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .footer .footer-box__recomendation {
+      display: block;
+      margin-bottom: 30px; }
+    .footer .footer-box .footer-links {
+      margin-bottom: 50px; }
+      .footer .footer-box .footer-links__list {
+        display: inline-block;
+        margin-right: 20px; }
+        .footer .footer-box .footer-links__list:last-child {
+          margin-right: 0; }
+      .footer .footer-box .footer-links__link {
+        color: #fff; }
+        .footer .footer-box .footer-links__link--active {
+          color: #5474fd; }
