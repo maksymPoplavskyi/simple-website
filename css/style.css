@@ -66,6 +66,12 @@ h3 {
   letter-spacing: 2.8px;
   color: #999; }
 
+#quote {
+  position: relative;
+  bottom: 12px;
+  font-size: 18px;
+  color: #5474fd; }
+
 * {
   margin: 0;
   padding: 0;
@@ -289,7 +295,7 @@ img {
     overflow: hidden; }
     .chain-content .chain-box--left {
       top: 114px;
-      left: 438px; }
+      left: 430px; }
     .chain-content .chain-box--right {
       top: 114px;
       left: 506px; }
@@ -364,3 +370,25 @@ img {
       color: #e8e8e8; }
     .place-boxes .place-block-2 .place__btn {
       padding: 20px 37px; }
+
+.what-say {
+  background: url(../../img/What-say-bg.jpg) center no-repeat/cover;
+  padding-top: 120px;
+  text-align: center; }
+  .what-say__title {
+    margin-bottom: 94px; }
+  .what-say .what-conteiner .what-reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #333;
+    margin-bottom: 200px; }
+    .what-say .what-conteiner .what-reviews__commentary {
+      padding: 50px 50px 50px 60px; }
+    .what-say .what-conteiner .what-reviews__name {
+      margin-bottom: 50px;
+      text-transform: uppercase; }
+    .what-say .what-conteiner .what-reviews__quote {
+      line-height: 26px;
+      text-align: left;
+      color: #e8e8e8; }

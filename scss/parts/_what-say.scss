@@ -1,0 +1,38 @@
+.what-say {
+    background: url(../../img/What-say-bg.jpg) center no-repeat / cover;
+    padding-top: 120px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 94px;
+    }
+
+    .what-conteiner {
+
+        .what-reviews {
+            display: flex;
+            background-color: #333;
+            margin-bottom: 200px;
+
+            &__img {
+
+            }
+        
+
+        &__commentary {
+            padding: 50px 50px 50px 60px;
+        }
+
+        &__name {
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        &__quote {
+            line-height: 26px;
+            text-align: left;
+            color: $color-base;
+        }
+        }
+    }
+}
