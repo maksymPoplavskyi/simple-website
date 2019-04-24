@@ -5,8 +5,7 @@
         &--spain {
             padding: 50px 30px;
             margin-bottom: 100px;
-            background-color: #2c2829;
-            opacity: 0.9;
+            background-color: rgba(46, 41, 41, 0.9);
         }
 
         &__name {
@@ -14,7 +13,7 @@
             font-family: $font-josefin;
             margin-bottom: 30px;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 300;
             letter-spacing: 1.875px;
             color: $color-base;
         }
@@ -23,7 +22,7 @@
             font-family: $font-josefin;
             margin-bottom: 30px;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 300;
             text-transform: uppercase;
             color: $color-base;  
         }

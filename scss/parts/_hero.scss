@@ -15,7 +15,7 @@
         display: block;
         margin-bottom: 50px;
         font-size: 22px;
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 6.82px;
         color: $color-white;
     }
@@ -52,7 +52,7 @@
             padding-left: 20px;
             font-family: $font-aleo-regular;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 300;
             letter-spacing: 1.4px;
             text-transform: uppercase;
             color: $color-white;
@@ -70,6 +70,8 @@
         display: flex;
         flex-direction: column;
         text-decoration: none;
+        max-width: 110px;
+        margin: 0 auto;
         font-size: 14px;
         letter-spacing: 2.8px;
         color: $color-white;

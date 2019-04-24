@@ -32,6 +32,10 @@
             text-decoration: none;
             text-transform: uppercase;
             color: $color-white;
+
+            &:hover {
+                color: #000;
+            }
         }
     }
 }
